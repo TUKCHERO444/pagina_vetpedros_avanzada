@@ -67,8 +67,8 @@ export default function Header() {
       </header>
 
       <div
-        className={`fixed inset-0 z-[70] lg:hidden pointer-events-none transition-none ${
-          open ? "pointer-events-auto" : ""
+        className={`fixed inset-0 z-[70] lg:hidden transition-none ${
+          open ? "pointer-events-auto" : "pointer-events-none"
         }`}
       >
         <div
