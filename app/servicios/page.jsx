@@ -8,8 +8,8 @@ export default function ServiciosPage() {
       <section className="relative w-full lg:h-[600px] bg-sol-pale overflow-hidden">
         <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
           <img
-            src="/imgs/saladeatencion1.jpeg"
-            alt="Atención médica VET PEDROS CHICLAYO"
+            src="/imgs/pareddetitulos.jpeg"
+            alt="La clínica VET PEDROS CHICLAYO"
             className="w-full h-[300px] md:h-[450px] lg:h-full object-cover"
             fetchPriority="high"
           />

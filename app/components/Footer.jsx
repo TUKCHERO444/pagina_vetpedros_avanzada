@@ -25,17 +25,36 @@ export default function Footer() {
         <Reveal>
           <div className="max-w-[1300px] mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="flex flex-col gap-5 text-center md:text-left">
+            <div className="flex flex-row flex-wrap items-center justify-center gap-2.5 md:justify-start">
             <img
               src="/imgs/logovetpedros.png"
               alt="VET PEDROS CHICLAYO"
-              className="h-auto w-44 md:w-52 mx-auto md:mx-0"
+              className="h-auto w-36 md:w-44"
             />
+            <div className="flex flex-col items-start gap-1.5">
+              <span className="font-heading text-[1.55rem] md:text-[1.8rem] leading-none font-bold tracking-wide whitespace-nowrap">
+                <span className="text-accent-soft">VET</span>{" "}
+                <span className="text-red-brand">PEDROS</span>
+              </span>
+              <svg
+                className="w-5 h-5 text-primary"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                aria-hidden="true"
+              >
+                <path d="M8.35,3C9.53,2.83 10.78,4.12 11.14,5.9C11.5,7.67 10.85,9.25 9.67,9.43C8.5,9.61 7.24,8.32 6.87,6.54C6.5,4.77 7.17,3.19 8.35,3M15.5,3C16.69,3.19 17.35,4.77 17,6.54C16.62,8.32 15.37,9.61 14.19,9.43C13,9.25 12.35,7.67 12.72,5.9C13.08,4.12 14.33,2.83 15.5,3M3.07,7C4.23,6.82 5.47,8.05 5.81,9.78C6.16,11.5 5.5,13 4.34,13.2C3.17,13.4 1.93,12.16 1.58,10.43C1.23,8.7 1.9,7.19 3.07,7M20.93,7C22.09,7.19 22.77,8.7 22.42,10.43C22.07,12.16 20.84,13.4 19.66,13.2C18.5,13 17.84,11.5 18.19,9.78C18.53,8.05 19.77,6.82 20.93,7M12,10C14.04,10 15.75,11.09 15.75,14C15.75,15.56 15.36,17 14.09,18.4C13.13,19.46 12.63,20.54 12,20.54C11.38,20.54 10.86,19.46 9.91,18.4C8.64,17 8.25,15.56 8.25,14C8.25,11.09 9.97,10 12,10Z" />
+              </svg>
+            </div>
+          </div>
             <p className="text-white text-[18px] leading-[1.2] font-light">
               Síguenos en:
             </p>
             <p className="flex gap-[5px] justify-center md:justify-start">
               <a
-                href="#"
+                href="https://www.facebook.com/VetPdros/"
+                target="_blank"
+                rel="noopener"
+                aria-label="Facebook VET PEDROS CHICLAYO"
                 className="w-9 h-9 rounded-full bg-white/30 hover:bg-white flex items-center justify-center text-white hover:text-brasa-dark no-underline transition-colors duration-300"
               >
                 <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
@@ -86,15 +105,11 @@ export default function Footer() {
             <ul className="m-0 p-0 list-none flex flex-col gap-[8px]">
               <li className="flex items-start gap-2 text-white font-light text-base">
                 <svg className="w-4 h-4 mt-[5px] shrink-0" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path strokeLinecap="round" strokeLinejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
-                Av. Ejemplo 123, Lima
+                Elvira García y García 198, esquina con calle Cajamarca. José Olaya, Chiclayo
               </li>
               <li className="flex items-start gap-2 text-white font-light text-base">
                 <svg className="w-4 h-4 mt-[5px] shrink-0" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
-                +51 999 888 777
-              </li>
-              <li className="flex items-start gap-2 text-white font-light text-base">
-                <svg className="w-4 h-4 mt-[5px] shrink-0" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
-                info@vetpedros.com
+                +51 943 841 602
               </li>
               <li className="flex items-start gap-2 text-white font-light text-base">
                 <svg className="w-4 h-4 mt-[5px] shrink-0" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>

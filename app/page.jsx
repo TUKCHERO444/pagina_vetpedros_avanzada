@@ -27,8 +27,8 @@ export default function Home() {
       <section className="relative w-full h-[400px] md:h-[500px] lg:h-[600px] overflow-hidden bg-gradient-to-br from-sol-pale/80 via-paper/50 to-brasa-pale/60">
         <div className="absolute inset-0">
           <img
-            src="/imgs/entradaprincipal.jpeg"
-            alt="Entrada principal de la clínica VET PEDROS CHICLAYO"
+            src="/imgs/cliente2.jpg"
+            alt="Cliente de VET PEDROS CHICLAYO con su mascota"
             className="w-full h-full object-cover opacity-20"
             fetchPriority="high"
           />

@@ -2,7 +2,7 @@ import Link from "next/link";
 import Reveal from "../components/Reveal";
 import { productos } from "../data/productos";
 
-const WA_NUMBER = "51999888777";
+const WA_NUMBER = "51943841602";
 
 function waLink(product) {
   const message = `Hola VET PEDROS CHICLAYO, me interesa el producto: ${product.name} de S/ ${product.price}. ¿Está disponible?`;
